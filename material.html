@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCS Material Self</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="images/index-images/favicon_io/favicon-16x16.png">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="images/index-images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/index-images/favicon_io/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/index-images/favicon_io/android-chrome-192x192.png">
+    <style>
+      
+.animated-section {
+    animation: fadeIn 1s ease forwards; /* Apply animation to this section */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start from fully transparent */
+        transform: translateY(20px); /* Start from slightly below */
+    }
+    to {
+        opacity: 1; /* Fade in to fully opaque */
+        transform: translateY(0); /* Move to its original position */
+    }
+}
+    </style>
+</head>
+<body>
+<link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+/>
+<link
+    href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+    rel="stylesheet"
+/>
+<link
+    href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+    rel="stylesheet"
+/>
+<!-- START NAV -->
+
+<nav id="navbar" class="nav">
+    <ul class="nav-list">
+        <li>
+        <a href="index.html#welcome-section">About</a>
+        </li>
+        <li>
+        <a href="index.html#projects">Sides of Me</a>
+        </li>
+        <li>
+        <a href="index.html#contact">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- header -->
+
+<section class="random-color animated-section">
+  <div class="headerContainer">
+    <h1>My Material Self</h1>
+    <p>Understanding our relationship with possessions.</p>
+  </div>
+</section>
+
+<div class="sectionsContainer">
+  
+  <!-- 1 -->
+
+  <section class="random-color animated-section"> 
+    <div class="contentContainer">
+      <figure class="imageFigure">
+        <img class="contentImage" src="images/materialself-images/material1.png" alt="An empty house with lots of toys." />
+      </figure>
+      <div class="paragraphClass">
+        <p>I am very thrifty, consistently choosing to purchase only what I deem necessary. This deliberate choice is not solely about financial savings; it's a reflection of a deeper understanding of my economic self, as outlined in our course discussions. This ‘material’ or ‘economic’ self is not just about what we own, but how our choices in possessions and consumption pattern define our social identity and perceived status within our community.</p>
+      </div>    
+    </div>  
+  </section>
+
+  <!-- 2 -->
+
+  <section class="random-color animated-section"> 
+    <div class="contentContainer">
+      <figure class="imageFigure">
+        <img class="contentImage" src="images/materialself-images/material2.png" alt="A wedding cake and a fizzy drink." />
+      </figure>
+      <div class="paragraphClass">
+        <p>By prioritizing needs over wants, I cultivate a social persona that values sustainability and practicality. These values are not only central to my personal identity but also influence how I am perceived socially. The choices I make in purchases—whether they be minimalistic and essential—send a message of prudence and responsibility, aligning with a group that values eco-consciousness and financial wisdom.</p>
+      </div>    
+    </div>
+  </section>
+
+  <!-- 3 -->
+
+  <section class="random-color animated-section"> 
+    <div class="contentContainer">
+      <figure class="imageFigure">
+        <img class="contentImage" src="images/materialself-images/material3.png" alt="Goku Super Saiyan." />
+      </figure>
+      <div class="paragraphClass">
+        <p>In embracing thriftiness, I also consciously choose to step away from the typical consumerist drive, which often equates more possessions with higher social standing. This decision challenges the conventional indicators of status and suggests an alternative mode of establishing one's place in social hierarchies, one that honors resourcefulness and sustainability over opulence.</p>
+      </div>    
+    </div>
+  </section>
+
+  <!-- 4 -->
+
+  <section class="random-color animated-section"> 
+    <div class="contentContainer">
+      <figure class="imageFigure">
+        <img class="contentImage" src="images/materialself-images/material4.png" alt="DNA structure." />
+      </figure>
+      <div class="paragraphClass">
+        <p>This perspective highlights that my economic behaviors are not just personal choices but are linked with broader social implications. They reflect and reinforce my desired identity—one that advocates for less consumption and more thoughtful, responsible living. </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Navigation Links -->
+  
+  <div class="navigation-links animated-section">
+    <a href="digital.html" class="nav-arrow left-arrow">&#8592; Back to Digital Self</a>
+    <a href="mental.html" class="nav-arrow right-arrow">Continue to Mental Self &#8594;</a>
+  </div>
+
+</div>
+
+<!-- START FOOTER SECTION -->
+
+<footer>
+    <p>**This portfolio was created to fulfill the requirements for the course 'Understanding the Self'. **Photos acquired using Google Imagen. </p>
+    <p>&copy; Willard C. Soriano</p>
+  </footer>
+
+<!-- END FOOTER SECTION -->
+
+<!-- Javascript -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var sectionsWithRandomColor = document.querySelectorAll('.random-color');
+    
+        const colors = [
+            "#0B0B0B", "#0D1B2A", "#6B3A2E", "#423E37", "#24325F", "#563F1B", 
+            "#5C573E", "#3D1635", "#2B5849", "#552C14", "#3F4A59", "#49423F",
+            "#34282C", "#1F262A", "#485167", "#31403D", "#563C5C", "#223A5E"
+        ];
+    
+        function getRandomColor(previousColorIndex) {
+            var randomColorIndex;
+            do {
+                randomColorIndex = Math.floor(Math.random() * colors.length);
+            } while (randomColorIndex === previousColorIndex);
+            return randomColorIndex;
+        }
+    
+        var previousColorIndex = -1;
+    
+        // Apply random colors to sections
+        sectionsWithRandomColor.forEach(function(section) {
+            var randomColorIndex = getRandomColor(previousColorIndex);
+            var randomColor = colors[randomColorIndex];
+            section.style.backgroundColor = randomColor;
+            previousColorIndex = randomColorIndex; // Update the previous index
+        });
+    });
+</script>
+    
+
+</body>
