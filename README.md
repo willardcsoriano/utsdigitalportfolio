@@ -9,15 +9,7 @@ The site explores multiple aspects of identity — physical, sexual, cultural, d
 
 ---
 
-## 📖 Table of Contents
-
-- [Features](#-features)  
-- [Project Structure](#-project-structure)  
-- [Installation](#-installation)  
-- [Usage](#-usage)  
-- [Screenshots](#-screenshots)  
-- [Contact](#-contact)  
-- [License](#-license)  
+🔗 **Live Demo:** [https://willardcsoriano.github.io/utsdigitalportfolio/](https://willardcsoriano.github.io/utsdigitalportfolio/)
 
 ---
 
@@ -30,40 +22,3 @@ The site explores multiple aspects of identity — physical, sexual, cultural, d
 - 🔗 **Contact Section**: Links to **Facebook**, **GitHub**, **LinkedIn**, and **email**  
 
 ---
-
-## 🗂 Project Structure
-
-.
-├── index.html # Main landing page
-├── styles.css # Stylesheet
-├── images/ # Portfolio images and favicon
-│ └── index-images/
-│ ├── physical.png
-│ ├── sexual.png
-│ ├── cultural.png
-│ ├── digital.png
-│ ├── material.png
-│ ├── mental.png
-│ ├── emotional.png
-│ ├── spiritual.png
-│ └── review.png
-├── physical.html
-├── sexual.html
-├── cultural.html
-├── digital.html
-├── material.html
-├── mental.html
-├── emotional.html
-├── spiritual.html
-└── modulereview.html
-
-
----
-
-## ⚙️ Installation
-
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-   cd YOUR_REPOSITORY_NAME
-2. Open index.html in your browser.
